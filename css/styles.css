@@ -31,13 +31,13 @@ hr {
   border-width: 6px;
 }
 p {
+  color: #1F441E;
   text-align: center;
   line-height: 1.5;
 }
 strong {
   padding-top: 8px;
   display: block;
-  box-sizing: border-box;
   text-align: left;
 }
 /******************* CLASS SELECTOR ****************/
@@ -48,17 +48,18 @@ strong {
   padding-top: 100px;
 }
 .middle-container {
-
+  background-color: #DFEEEA;
+  padding-bottom: 2em;
 }
 .bottom-container {
-  margin-top: 30px;
   background-color: #A7C4BC;
-  padding: 20px 0 10px;
+  padding: 2em 0 8px;
 }
-.external-container {
-  font-size: 0.8em;
-  background-color: #A7C4BC;
-  padding-bottom: 20px;
+.bio {
+  width: 40%;
+  display: inline-block;
+  margin: auto;
+  text-align: left;
 }
 .college {
   display: inline-block;
@@ -96,6 +97,7 @@ strong {
   margin: 0 auto;
 }
 .skill-name {
+  color: #1F441E;
   text-align: left;
   width: 170px;
 }
@@ -108,7 +110,7 @@ strong {
   width: 14rem;
 }
 .logo-ugm-img {
-  width: 11rem;
+  width: 10rem;
 }
 .broadcast-img {
   width: 10rem;
@@ -133,11 +135,15 @@ strong {
 .footer-link:hover {
   color: #EAF6F6
 }
-.bio {
-  width: 40%;
-  display: inline-block;
-  margin: auto;
-  text-align: left;
+.copyright {
+  margin: 2rem auto 1rem;
+  color: #EAF6F6;
+  font-size: 0.8em;
+}
+.external-container {
+  font-size: 0.8em;
+  background-color: #A7C4BC;
+  padding-bottom: 2rem;
 }
 .external {
   text-decoration: none;
